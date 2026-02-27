@@ -645,6 +645,25 @@
 
     .brands-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .brand-card {
+        padding: 1rem;
+        min-height: 140px;
+    }
+
+    .brand-logo-placeholder {
+        width: 60px;
+        height: 60px;
+    }
+
+    .brand-initial {
+        font-size: 1.8rem;
+    }
+
+    .brand-name {
+        font-size: 0.95rem;
     }
 
     .promo-container {
@@ -704,6 +723,27 @@
 
     .brands-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .brand-card {
+        padding: 0.85rem 0.5rem;
+        min-height: 120px;
+        gap: 0.5rem;
+    }
+
+    .brand-logo-placeholder {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.25rem;
+    }
+
+    .brand-initial {
+        font-size: 1.5rem;
+    }
+
+    .brand-name {
+        font-size: 0.85rem;
     }
 
     .trust-container {
