@@ -182,6 +182,15 @@
     font-size: 1.05rem;
   }
 
+  .nav-link.nav-link-admin {
+    width: auto;
+    margin-top: 0.5rem;
+    text-align: center;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    align-self: center;
+  }
+
   .nav-overlay {
     display: block;
     position: fixed;
