@@ -168,12 +168,16 @@
     gap: 0.25rem;
     border-bottom: 1px solid rgba(255, 165, 0, 0.15);
     transform: translateY(-110%);
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s, visibility 0.35s;
     z-index: 999;
   }
 
   .navbar-nav.nav-open {
     transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
 
   .nav-link {
